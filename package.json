@@ -1,6 +1,6 @@
 {
   "name": "websocket-json-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Expose WebSockets with JSON as an object stream",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,9 @@
   },
   "keywords": ["websockets", "websocket", "ws", "stream", "streams"],
   "author": "Avital Oliver <avital@aoliver.org>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/avital/websocket-json-stream.git"
+  },
   "license": "MIT"
 }
