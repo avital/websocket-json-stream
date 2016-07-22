@@ -1,6 +1,6 @@
 {
   "name": "websocket-json-stream",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Expose WebSockets with JSON as an object stream",
   "main": "index.js",
   "scripts": {
