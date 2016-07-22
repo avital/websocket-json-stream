@@ -20,10 +20,10 @@ function WebSocketJSONStream(ws) {
   this.on('error', function() { ws.close(); });
   this.on('end', function() { ws.close(); });
 };
-util.inherits(WebSocketServerStream, Duplex);
+util.inherits(WebSocketJSONStream, Duplex);
 
-WebSocketServerStream.prototype._read = function() {};
-WebSocketServerStream.prototype._write = function(msg, encoding, next) {
+WebSocketJSONStream.prototype._read = function() {};
+WebSocketJSONStream.prototype._write = function(msg, encoding, next) {
   this.ws.send(JSON.stringify(msg));
   next();
 };
